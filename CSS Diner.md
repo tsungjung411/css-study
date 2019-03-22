@@ -45,14 +45,24 @@
   <br>
   
 - **Q16**:
-  <br>
+  <br>Select the apple and the pickle on the plates.
+  <br>選擇盤子上的蘋果和醃黃瓜。
+  <br>解答：```apple:only-child, plate pickle:only-child```
   
 - **Q17**:
-  <br>
+  <br>Select the small apple and the pickle.
+  <br>選擇小蘋果和醃黃瓜。
+  <br>解答：```apple:last-child, pickle:last-child```
+  <br>其他解答：```apple, pickle```
   
 - **Q18**:
-  <br>
-  
+  <br>Select the 3rd plate.
+  <br>選擇第3個盤子。
+  <br>解答：```:nth-child(3)```
+  <br>其他解答：```:nth-last-child(2)```
+  <br>其他解答：```:nth-of-type(3)```
+  <br>其他解答：```:nth-last-of-type(2)```
+    
 - **Q19**:
   <br>Select the 1st bento.
   <br>選擇第一個便當。
