@@ -3,7 +3,6 @@
    - list (依據清單劃分)
      - order (依據順序)
        - ```:first-child``` (尋找第一個元素) 
-         <br>(等效於```:first```)
          <br>(等效於```:nth-child(1)```)
        - ```:nth-child``` (尋找第 n 個元素) (nth 表示可計數)
        - ```:only-child``` (尋找個數只有它自己一個的元素)
