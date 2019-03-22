@@ -39,10 +39,19 @@
   <br>
   
 - **Q14**:
-  <br>
+  <br>Select the apple directly on a plate.
+  <br>選擇緊接在盤子上的蘋果。
+  <br>解答：```plate > apple```(直接)
+  <br>困惑答案：```plate apple```(間接) 會造成這種 [plate]:[bento]:[apple] 擺設也會被選取，我們要的是蘋果緊接著盤子
   
 - **Q15**:
-  <br>
+  <br>Select the top orange.
+  <br>選擇頂端的橘子。
+  <br>解答：```orange:first-child```
+  <br>其他解答：```orange:nth-child(1)```
+  <br>其他解答：```orange:first-of-type```
+  <br>其他解答：```orange:first```
+  <br>其他解答：```orange:nth-of-type(1)```
   
 - **Q16**:
   <br>Select the apple and the pickle on the plates.
