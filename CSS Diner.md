@@ -48,6 +48,7 @@
   <br>Select the apple and the pickle on the plates.
   <br>選擇盤子上的蘋果和醃黃瓜。
   <br>解答：```apple:only-child, plate pickle:only-child```
+  <br>其他解答：```plate apple, plate pickle```
   
 - **Q17**:
   <br>Select the small apple and the pickle.
