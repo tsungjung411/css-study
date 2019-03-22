@@ -1,4 +1,4 @@
-## http://flukeout.github.io/
+## CSS闖關遊戲 http://flukeout.github.io/
 - **Q01**:
   <br>
   
@@ -95,5 +95,5 @@
 - **Q32**:
   <br>Select the meals for names that contain 'obb'
   <br>選擇名子包含 'obb' 的膳食
-  <br>
+  <br>```[for*="obb"]```
   
