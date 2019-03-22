@@ -63,19 +63,31 @@
   <br>
   
 - **Q22**:
-  <br>
+  <br>Select every 2nd plate, starting from the 3rd.
+  <br>從第 3 個開始，每兩個為一組，選擇每組的第 1 個
+  <br>解答：```plate:nth-of-type(2n+3)```
   
 - **Q23**:
-  <br>
+  <br>Select the last apple and orange.
+  <br>選擇最後的蘋果與橘子。
+  <br>解答：```apple:only-of-type```
+  <br>其他解答：```apple:only-child```
   
 - **Q24**:
-  <br>
+  <br>Select the last apple and orange.
+  <br>選擇最後的蘋果與橘子。
+  <br>解答：```apple:last-of-type, orange:last-of-type```
+  <br>困惑答案：```apple:last-child, orange:last-child``` orange:last-child 會是空的，last-child 是指同一層最後的元素(apple)，而 orange 與 apple 交集是空集合
   
-- **Q25**:
-  <br>
+- **Q25**: 
+  <br>Select the empty bentos.
+  <br>選擇空的便當。
+  <br>解答：```apple:not(.small)```
   
-- **Q26**:
-  <br>
+- **Q26**: （又稱為：反向選擇器）
+  <br>Select the big apples.
+  <br>選擇大蘋果。
+  <br>解答：```apple:not(.small)```
   
 - **Q27**:
   <br>Select the items for someone.
