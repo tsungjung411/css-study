@@ -81,20 +81,30 @@
   <br>
   
 - **Q28**:
-  <br>
+  <br>Select the plates for someone.
+  <br>為某人選擇盤子。
+  <br>解答：```plate[for]```
   
 - **Q29**:
-  <br>
+  <br>Select Vitaly's meal.
+  <br>選擇 Vitaly 膳食。
+  <br>解答：```[for="Vitaly"]```
   
 - **Q30**:
-  <br>
+  <br>Select the items for names that start with 'Sa'.
+  <br>選擇名子以 'Sa' 起始的項目。
+  <br>解答：```[for^="Sa"]```
+  <br>說明：類似 Reg-Exp 的用法```^Sa```，用 ```^=``` 來表示
   
 - **Q31**:
-  <br>
+  <br>Select the items for names that end with 'ato'.
+  <br>選擇名子以 'ato' 結尾的項目。
+  <br>解答：```[for$="ato"]```
+  <br>說明：類似 Reg-Exp 的用法```ato$```，用 ```$=``` 來表示
   
 - **Q32**:
   <br>Select the meals for names that contain 'obb'.
   <br>選擇名子包含 'obb' 的膳食。
   <br>解答：```[for*="obb"]```
-  <br>說明：類似 reg-exp 的用法```.*obb.*```，用 ```*=``` 來表示
+  <br>說明：類似 Reg-Exp 的用法```.*obb.*```，用 ```*=``` 來表示
   
