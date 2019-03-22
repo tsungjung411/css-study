@@ -78,7 +78,9 @@
   <br>
   
 - **Q27**:
-  <br>
+  <br>Select the items for someone.
+  <br>為某人選擇物品。
+  <br>解答：```[for]```
   
 - **Q28**:
   <br>Select the plates for someone.
@@ -92,13 +94,13 @@
   
 - **Q30**:
   <br>Select the items for names that start with 'Sa'.
-  <br>選擇名子以 'Sa' 起始的項目。
+  <br>選擇名子以 'Sa' 起始的物品。
   <br>解答：```[for^="Sa"]```
   <br>說明：類似 Reg-Exp 的用法```^Sa```，用 ```^=``` 來表示
   
 - **Q31**:
   <br>Select the items for names that end with 'ato'.
-  <br>選擇名子以 'ato' 結尾的項目。
+  <br>選擇名子以 'ato' 結尾的物品。
   <br>解答：```[for$="ato"]```
   <br>說明：類似 Reg-Exp 的用法```ato$```，用 ```$=``` 來表示
   
