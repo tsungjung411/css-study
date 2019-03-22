@@ -93,7 +93,8 @@
   <br>
   
 - **Q32**:
-  <br>Select the meals for names that contain 'obb'
-  <br>選擇名子包含 'obb' 的膳食
-  <br>```[for*="obb"]```
+  <br>Select the meals for names that contain 'obb'.
+  <br>選擇名子包含 'obb' 的膳食。
+  <br>解答：```[for*="obb"]```
+  <br>說明：類似 reg-exp 的用法```.*obb.*```，用 ```*=``` 來表示
   
