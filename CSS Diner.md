@@ -54,22 +54,38 @@
   <br>
   
 - **Q19**:
-  <br>
+  <br>Select the 1st bento.
+  <br>選擇第一個便當。
+  <br>解答：```bento:nth-last-child(3)```
+  <br>其他解答：```bento:nth-child(2)```
+  <br>其他解答：```bento:first```
+  <br>其他解答：```bento:first-of-type```
+  <br>其他解答：```bento:nth-of-type(1)```
   
 - **Q20**:
-  <br>
+  <br>Select first apple.
+  <br>選擇第一個蘋果。
+  <br>解答：```apple:first-of-type```
+  <br>其他解答：```apple:first```
+  <br>其他解答：```apple:nth-of-type(1)```
+  <br>其他解答：```apple:nth-child(2)```
   
 - **Q21**:
-  <br>
+  <br>Select all even plates.
+  <br>選擇所有偶數盤子。
+  <br>解答：```:nth-of-type(even)```
+  <br>其他解答：```:nth-of-type(2n)```
+  <br>其他解答：```plate:nth-of-type(even)```
+  <br>其他解答：```plate:nth-of-type(2n)```
   
 - **Q22**:
   <br>Select every 2nd plate, starting from the 3rd.
-  <br>從第 3 個開始，每兩個為一組，選擇每組的第 1 個
+  <br>從第 3 個開始，每兩個為一組，選擇每組的第 1 個。
   <br>解答：```plate:nth-of-type(2n+3)```
   
 - **Q23**:
   <br>Select the last apple and orange.
-  <br>選擇最後的蘋果與橘子。
+  <br>選擇最後一個蘋果與橘子。
   <br>解答：```apple:only-of-type```
   <br>其他解答：```apple:only-child```
   
