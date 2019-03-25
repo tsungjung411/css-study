@@ -1,42 +1,68 @@
 ## CSS闖關遊戲 http://flukeout.github.io/
 - **Q01**:
-  <br>
+  <br>Select the plates.
+  <br>選取盤子。
+  <br>解答：```plate```
   
 - **Q02**:
-  <br>
+  <br>Select the bento boxes.
+  <br>選擇便當盒。
+  <br>解答：```bento```
   
 - **Q03**:
-  <br>
+  <br>Select the fancy plate
+  <br>選取花俏的盤子。
+  <br>解答：```plate#fancy```
   
 - **Q04**:
-  <br>
+  <br>Select the apple on the plate.
+  <br>選擇盤子上的蘋果。
+  <br>解答：```plate apple``` (因為階層關係，中間要空一格)
   
 - **Q05**:
-  <br>
+  <br>Select the pickle on the fancy plate.
+  <br>選擇花俏盤子上的醃黃瓜。
+  <br>解答：```plate#fancy pickle```
   
 - **Q06**:
-  <br>
+  <br>Select the small apples.
+  <br>選擇小蘋果。
+  <br>解答：```apple.small```
   
 - **Q07**:
-  <br>
+  <br>Select the small oranges.
+  <br>選擇小橘子。
+  <br>解答：```orange.small```
   
 - **Q08**:
-  <br>
+  <br>Select the small oranges in the bentos.
+  <br>選擇便當裡的小橘子
+  <br>解答：```bento orange.small```
   
 - **Q09**:
-  <br>
+  <br>Select all the plates and bentos.
+  <br>選擇所有的盤子和便當。
+  <br>解答：```plate, bento```
   
 - **Q10**:
-  <br>
+  <br>Select all the things!
+  <br>選擇所有的東西。
+  <br>解答：```*```
   
 - **Q11**:
-  <br>
+  <br>Select everything on a plate.
+  <br>選擇盤子上的所有東西。
+  <br>解答：```plate *``` (因為階層關係，中間要空一格，亦即盤子下的所有子元素)
   
 - **Q12**:
-  <br>
+  <br>Select every apple that's next to a plate
+  <br>選擇盤子旁邊的每個蘋果。
+  <br>解答：```plate+apple``` (選擇緊接在盤子之後的每個蘋果)
   
 - **Q13**:
-  <br>
+  <br>Select the pickles beside the bento.
+  <br>選擇便當旁邊的泡菜
+  <br>解答：```bento~pickle``` (選擇在便當之後的所有相鄰泡菜)
   
 - **Q14**:
   <br>Select the apple directly on a plate.
