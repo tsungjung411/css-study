@@ -41,7 +41,19 @@
        - ```[attr^="xxx"]```
        - ```[attr*="xxx"]```
        - ```[attr$="xxx"]```
-
+   - 為何需要此設計?
+     - 可以將套用範圍，控制在局部區域
+     - 範例：https://vue-loader-v14.vuejs.org/zh-cn/features/scoped-css.html
+       ```css
+       <style>
+           .example[data-v-f3f3eg9] {
+               color: red;
+           }
+       </style>
+       ```
+       ```html
+       <div class="example" data-v-f3f3eg9>hi</div>
+       ```
 
 ## 基礎學習資源
  - [CSS闖關遊戲](http://flukeout.github.io/)
