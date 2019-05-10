@@ -33,6 +33,14 @@
    - ```:empty``` (尋找沒有子元素的元素)
    - ```:not(selector)``` (反向選擇器)
    - ```:hover``` (當滑鼠在上面的時候觸發)
+     ```
+     <style>
+         .myClass:hover {
+             color: red;
+             background: yellow;
+	        }
+     </style>
+     ```
    
  - 屬性(attribute)
    - ```tag[attr]```
