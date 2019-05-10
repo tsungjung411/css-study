@@ -32,6 +32,7 @@
    - ```:nth-xxx``` (可計數 API 以 nth- 起始) (nth 表示可計數)
    - ```:empty``` (尋找沒有子元素的元素)
    - ```:not(selector)``` (反向選擇器)
+   - ```:hover``` (當滑鼠在上面的時候觸發)
    
  - 屬性(attribute)
    - ```tag[attr]```
