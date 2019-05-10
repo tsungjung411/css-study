@@ -44,6 +44,13 @@
    - ```:before```
    - ```:after```
    
+ - [偽元素](https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html)
+   - ```::before```
+   - ```::after```
+   - ```::first-line```
+   - ```::first-letter```
+   - ```::selection```
+   
  - 屬性(attribute)
    - ```tag[attr]```
    - ```[attr]```
