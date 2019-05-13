@@ -44,7 +44,7 @@
    - ```:before```
    - ```:after```
    
- - 偽元素
+ - 偽元素：不是真正的網頁元素，但其行為與表現卻和真正的網頁元素一樣
    - ```::before``` ([介紹](https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html))
    - ```::after``` ([介紹](https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html))
    - ```::first-line```
