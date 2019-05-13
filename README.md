@@ -44,9 +44,9 @@
    - ```:before```
    - ```:after```
    
- - [偽元素](https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html)
-   - ```::before```
-   - ```::after```
+ - 偽元素
+   - ```::before``` ([介紹](https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html))
+   - ```::after``` ([介紹](https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html))
    - ```::first-line```
    - ```::first-letter```
    - ```::selection```
