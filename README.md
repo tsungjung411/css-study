@@ -72,13 +72,22 @@
        ```html
        <div class="example" data-v-f3f3eg9>hi</div>
        ```
+<br>
+
+## 函數：
+ - counte, counter**s**: 計數器([介紹](https://www.oxxostudio.tw/articles/201706/pseudo-element-2.html))
+ - rgb, rgba: ([介紹](https://stackoverflow.com/questions/10815384/argb-hex-color-not-working-in-css-html))
+
+<br>
 
 ## 基礎學習資源
  - [CSS闖關遊戲](http://flukeout.github.io/)
    - Answers: [CSS Diner.md](CSS%20Diner.md)
 
  - [[mozilla] CSS](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Introduction_to_CSS/Simple_selectors)
- 
+
+<br>
+
 ## 主題探討
  - [電子時鐘效果 ( CSS 偽元素的應用 )](http://www.oxxostudio.tw/articles/201407/css-clock.html)
  - [點擊後的 CSS 載入效果](http://www.oxxostudio.tw/articles/201412/css-click-loading.html)
