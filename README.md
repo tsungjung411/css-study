@@ -93,3 +93,19 @@
  - [點擊後的 CSS 載入效果](http://www.oxxostudio.tw/articles/201412/css-click-loading.html)
  - [有趣的 CSS 彈跳動畫](http://www.oxxostudio.tw/articles/201502/css-bounce.html)
  - [純 CSS 繪製圓餅圖](http://www.oxxostudio.tw/articles/201503/css-pie-chart.html)
+
+## 使用 Google Material Icon
+```html
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+</head>
+<body>
+    <i class="material-icons">donut_small</i>
+    <i class="material-icons-outlined">donut_small</i>
+    <i class="material-icons-two-tone">donut_small</i>
+    <i class="material-icons-round">donut_small</i>
+    <i class="material-icons-sharp">donut_small</i>
+</body>
+</html>
+```
