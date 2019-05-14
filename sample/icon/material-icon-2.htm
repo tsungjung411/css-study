@@ -1,0 +1,142 @@
+
+<!--
+    https://stackoverflow.com/questions/50303454/how-to-use-the-new-material-design-icon-themes-outlined-rounded-two-tone-and?noredirect=1&lq=1
+    How to use the new Material Design Icon themes: Outlined, Rounded, Two-Tone and Sharp?
+-->
+
+<html>
+<head>
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+	<!-- Outline: -->
+	<link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/outline.css">
+
+	<!-- Rounded: -->
+	<link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/round.css">
+
+	<!-- Two-Tone: -->
+	<link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/twotone.css">
+
+	<!-- Sharp: -->
+	<link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/sharp.css">
+
+</head>
+
+<body>
+<h1>Hello, CSS!</h1>
+<i class="material-icons">donut_small</i>
+<i class="material-icons-outlined">donut_small</i>
+<i class="material-icons-two-tone">donut_small</i>
+<i class="material-icons-round">donut_small</i>
+<i class="material-icons-sharp">donut_small</i>
+
+<i class="material-icons">help_outline</i> 
+<i class="material-icons">label_outline</i> 
+<i class="material-icons">mail_outline</i> 
+<i class="material-icons">info_outline</i> 
+<i class="material-icons">lock_outline</i> 
+<i class="material-icons">lightbulb_outline</i> 
+<i class="material-icons">play_circle_outline</i> 
+<i class="material-icons">error_outline</i> 
+<i class="material-icons">add_circle_outline</i> 
+<i class="material-icons">people_outline</i> 
+<i class="material-icons">person_outline</i> 
+<i class="material-icons">pause_circle_outline</i> 
+<i class="material-icons">chat_bubble_outline</i> 
+<i class="material-icons">remove_circle_outline</i> 
+<i class="material-icons">check_box_outline_blank</i> 
+<i class="material-icons">pie_chart_outlined</i>
+
+
+<br><br>
+
+<h1>Advance</h1>
+
+<script>
+	function turnOnOff(self) {
+		if (self.innerHTML == 'ON') {
+			self.innerHTML = 'OFF';
+			document.body.style.background = '#555';
+		} else {
+			self.innerHTML = 'ON';
+			document.body.style.background = null;
+		}
+	}
+</script>
+Light ON/OFF： <button onclick="turnOnOff(this)">ON</button>
+
+<style>
+	i {
+		vertical-align: text-top;
+	}
+
+	.material-icons-new {
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.icon-white {
+		webkit-filter: contrast(4) invert(1);
+		-moz-filter: contrast(4) invert(1);
+		-o-filter: contrast(4) invert(1);
+		-ms-filter: contrast(4) invert(1);
+		filter: contrast(4) invert(1);
+	}
+</style>
+<ul>
+	<li><a target="_blank" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/outline.css">Outline</a>
+		<br>
+		<i class="material-icons-new outline-account_circle"></i>
+		[<i class="material-icons-new outline-account_circle icon-white"></i> ← Optional (For dark backgrounds)]
+		<br>
+		<i class="material-icons-new outline-insert_drive_file"></i>
+		<i class="material-icons-new outline-description"></i>
+		<i class="material-icons-new outline-sentiment_very_satisfied"></i>
+		<i class="material-icons-new outline-sentiment_satisfied"></i>
+		<i class="material-icons-new outline-sentiment_dissatisfied"></i>
+		<i class="material-icons-new outline-sentiment_very_dissatisfied"></i>
+	</li>
+	<li><a target="_blank" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/round.css">Rounded</a>
+		<br>
+		<i class="material-icons-new round-account_circle"></i>
+		[<i class="material-icons-new round-account_circle icon-white"></i> ← Optional (For dark backgrounds)]
+		<br>
+		<i class="material-icons-new round-insert_drive_file"></i>
+		<i class="material-icons-new round-description"></i>
+		<i class="material-icons-new round-sentiment_very_satisfied"></i>
+		<i class="material-icons-new round-sentiment_satisfied"></i>
+		<i class="material-icons-new round-sentiment_dissatisfied"></i>
+		<i class="material-icons-new round-sentiment_very_dissatisfied"></i>
+	</li>
+	<li><a target="_blank" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/twotone.css">Two-Tone</a>
+		<br>
+		<i class="material-icons-new twotone-account_circle"></i>
+		[<i class="material-icons-new twotone-account_circle icon-white"></i> ← Optional (For dark backgrounds)]
+		<br>
+		<i class="material-icons-new twotone-insert_drive_file"></i>
+		<i class="material-icons-new twotone-description"></i>
+		<i class="material-icons-new twotone-sentiment_very_satisfied"></i>
+		<i class="material-icons-new twotone-sentiment_satisfied"></i>
+		<i class="material-icons-new twotone-sentiment_dissatisfied"></i>
+		<i class="material-icons-new twotone-sentiment_very_dissatisfied"></i>
+	</li>
+	<li><a target="_blank" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/sharp.css">Sharp</a>
+		<br>
+		<i class="material-icons-new sharp-account_circle"></i>
+		[<i class="material-icons-new sharp-account_circle icon-white"></i> ← Optional (For dark backgrounds)]
+		<br>
+		<i class="material-icons-new sharp-insert_drive_file"></i>
+		<i class="material-icons-new sharp-description"></i>
+		<i class="material-icons-new sharp-sentiment_very_satisfied"></i>
+		<i class="material-icons-new sharp-sentiment_satisfied"></i>
+		<i class="material-icons-new sharp-sentiment_dissatisfied"></i>
+		<i class="material-icons-new sharp-sentiment_very_dissatisfied"></i>
+	</li>
+</ul>
+
+</body>
+</html>
