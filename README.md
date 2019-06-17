@@ -87,7 +87,7 @@
  - [[mozilla] CSS](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Introduction_to_CSS/Simple_selectors)
  - [學習 CSS 版面配置](http://zh-tw.learnlayout.com/inline-block.html)
    - 很多
-   - [媒體查詢（media queries）](http://zh-tw.learnlayout.com/media-queries.html)
+   - [媒體查詢（media queries）](http://zh-tw.learnlayout.com/media-queries.html)（響應式設計（Responsive Design））
    - [display: inline-block](http://zh-tw.learnlayout.com/inline-block.html)
    
 
