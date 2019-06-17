@@ -85,6 +85,7 @@
    - Answers: [CSS Diner.md](CSS%20Diner.md)
 
  - [[mozilla] CSS](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Introduction_to_CSS/Simple_selectors)
+ - [學習 CSS 版面配置](http://zh-tw.learnlayout.com/inline-block.html)
 
 <br>
 
