@@ -1,0 +1,218 @@
+<html>
+
+<head>
+	<title>Perspective</title>
+</head>
+
+<style>
+	button {
+		width: 40px;
+	}
+	.camera {
+		width: 400px;
+		height: 400px;
+		-webkit-perspective-origin: center top;
+		-webkit-perspective: 200px;
+	}
+
+	.space {
+		width: 100%;
+		height: 100%;
+		border: 1px dashed #000;
+		-webkit-transform-style: flat;
+	}
+
+	.box {
+		width: 200px;
+		height: 102px;
+		background:#069;
+		-webkit-transform:translateX(100px) translateY(100px) rotateY(0deg);
+		border: solid;
+	}
+</style>
+
+
+
+<body>
+
+<div class="camera" style="display: inline-block;">
+    <div class="space">
+        <div class="box"><img src="lp.png" width="200px"></div>
+    </div>
+</div>
+<div id="camera" class="camera" style="display: inline-block;">
+    <div class="space">
+        <div id="box" class="box"><img src="https://i.imgur.com/KU4pp1p.png" width="200px"></div>
+    </div>
+</div>
+
+<div>
+	<table>
+		<tr>
+			<td>X-axis</td>
+			<td><button onclick="rotateX(this, -110)">-110</button></td>
+			<td><button onclick="rotateX(this, -100)">-100</button></td>
+			<td><button onclick="rotateX(this, -90)"><b>-90</b></button></td>
+			<td><button onclick="rotateX(this, -80)">-80</button></td>
+			<td><button onclick="rotateX(this, -70)">-70</button></td>
+			<td><button onclick="rotateX(this, -60)">-60</button></td>
+			<td><button onclick="rotateX(this, -45)">-45</button></td>
+			<td><button onclick="rotateX(this, -30)">-30</button></td>
+			<td><button onclick="rotateX(this, -10)">-10</button></td>
+			<td><button onclick="rotateX(this, 0)">0</button></td>
+			<td><button id="buttonX" onclick="rotateX(this, 10)">10</button></td>
+			<td><button onclick="rotateX(this, 30)">30</button></td>
+			<td><button onclick="rotateX(this, 45)">45</button></td>
+			<td><button onclick="rotateX(this, 60)">60</button></td>
+			<td><button onclick="rotateX(this, 70)">70</button></td>
+			<td><button onclick="rotateX(this, 80)">80</button></td>
+			<td><button onclick="rotateX(this, 90)"><b>90</b></button></td>
+			<td><button onclick="rotateX(this, 100)">100</button></td>
+			<td><button onclick="rotateX(this, 110)">110</button></td>
+			<td>(垂直翻轉)</td>
+		</tr>
+		<tr>
+			<td>Y-axis</td>
+			<td><button onclick="rotateY(this, -110)" disbaled>-110</button></td>
+			<td><button onclick="rotateY(this, -100)" disbaled>-100</button></td>
+			<td><button onclick="rotateY(this, -90)" disbaled><b>-90</b></button></td>
+			<td><button onclick="rotateY(this, -80)">-80</button></td>
+			<td><button onclick="rotateY(this, -70)">-70</button></td>
+			<td><button onclick="rotateY(this, -60)">-60</button></td>
+			<td><button onclick="rotateY(this, -45)">-45</button></td>
+			<td><button onclick="rotateY(this, -30)">-30</button></td>
+			<td><button onclick="rotateY(this, -10)">-10</button></td>
+			<td><button onclick="rotateY(this, 0)">0</button></td>
+			<td><button onclick="rotateY(this, 10)">10</button></td>
+			<td><button onclick="rotateY(this, 30)">30</button></td>
+			<td><button onclick="rotateY(this, 45)">45</button></td>
+			<td><button id="buttonY" onclick="rotateY(this, 60)">60</button></td>
+			<td><button onclick="rotateY(this, 70)">70</button></td>
+			<td><button onclick="rotateY(this, 80)">80</button></td>
+			<td><button onclick="rotateY(this, 90)" disbaled><b>90</b></button></td>
+			<td><button onclick="rotateY(this, 100)" disbaled>100</button></td>
+			<td><button onclick="rotateY(this, 110)" disbaled>110</button></td>
+			<td>(水平翻轉)</td>
+		</tr>
+		<tr>
+			<td>Z-axis</td>
+			<td><button onclick="rotateZ(this, -110)" disbaled>-110</button></td>
+			<td><button onclick="rotateZ(this, -100)" disbaled>-100</button></td>
+			<td><button onclick="rotateZ(this, -90)" disbaled><b>-90</b></button></td>
+			<td><button onclick="rotateZ(this, -80)">-80</button></td>
+			<td><button onclick="rotateZ(this, -70)">-70</button></td>
+			<td><button onclick="rotateZ(this, -60)">-60</button></td>
+			<td><button onclick="rotateZ(this, -45)">-45</button></td>
+			<td><button onclick="rotateZ(this, -30)">-30</button></td>
+			<td><button onclick="rotateZ(this, -10)">-10</button></td>
+			<td><button id="buttonZ" onclick="rotateZ(this, 0)">0</button></td>
+			<td><button onclick="rotateZ(this, 10)">10</button></td>
+			<td><button onclick="rotateZ(this, 30)">30</button></td>
+			<td><button onclick="rotateZ(this, 45)">45</button></td>
+			<td><button onclick="rotateZ(this, 60)">60</button></td>
+			<td><button onclick="rotateZ(this, 70)">70</button></td>
+			<td><button onclick="rotateZ(this, 80)">80</button></td>
+			<td><button onclick="rotateZ(this, 90)" disbaled><b>90</b></button></td>
+			<td><button onclick="rotateZ(this, 100)" disbaled>100</button></td>
+			<td><button onclick="rotateZ(this, 110)" disbaled>110</button></td>
+			<td>(平面旋轉)</td>
+		</tr>
+		<tr>
+			<td>景深</td>
+			<td><button onclick="perspectiveZ(this, 10)">10</button></td>
+			<td><button onclick="perspectiveZ(this, 10)">20</button></td>
+			<td><button onclick="perspectiveZ(this, 10)">30</button></td>
+			<td><button onclick="perspectiveZ(this, 10)">40</button></td>
+			<td><button onclick="perspectiveZ(this, 50)">50</button></td>
+			<td><button onclick="perspectiveZ(this, 100)">100</button></td>
+			<td><button onclick="perspectiveZ(this, 150)">150</button></td>
+			<td><button onclick="perspectiveZ(this, 200)">200</button></td>
+			<td><button id="buttonP" onclick="perspectiveZ(this, 250)">250</button></td>
+			<td><button onclick="perspectiveZ(this, 300)">300</button></td>
+			<td><button onclick="perspectiveZ(this, 350)">350</button></td>
+			<td><button onclick="perspectiveZ(this, 400)">400</button></td>
+			<td><button onclick="perspectiveZ(this, 500)">500</button></td>
+			<td><button onclick="perspectiveZ(this, 600)">600</button></td>
+			<td><button onclick="perspectiveZ(this, 700)">700</button></td>
+			<td><button onclick="perspectiveZ(this, 800)">800</button></td>
+			<td><button onclick="perspectiveZ(this, 1000)">1000</button></td>
+			<td><button onclick="perspectiveZ(this, 2000)">2000</button></td>
+			<td><button onclick="perspectiveZ(this, 5000)">5000</button></td>
+		</tr>
+	</table>
+</div>
+
+<h3>範例設定</h3>
+	<ul>
+		<li>(x, y, z, deep) = (-10, 60, 10, 350)
+	</ul>
+
+<h3>參考資料</h3>
+<ul>
+	<li><a target="_blank" href="https://www.oxxostudio.tw/articles/201506/css-3d.html">玩轉 CSS 3D - 原理篇</li>
+</ul>
+
+</body>
+
+<script>
+	var lastButtonX = null, lastButtonY = null, lastButtonZ = null, lastButtonP = null;
+
+	var camera = document.getElementById('camera');
+	var box = document.getElementById('box');
+	var degreeX = 0;
+	var degreeY = 0;
+	var degreeZ = 0;
+
+	function rotateX(button, x) {
+		if (lastButtonX) {
+			lastButtonX.style.background = '';
+		}
+		lastButtonX = button;
+		button.style.background = '#b0ff00';
+
+		degreeX = x;
+		rotate();
+	}
+	function rotateY(button, y) {
+		if (lastButtonY) {
+			lastButtonY.style.background = '';
+		}
+		lastButtonY = button;
+		button.style.background = '#b0ff00';
+		
+		degreeY = y;
+		rotate();
+	}
+	function rotateZ(button, z) {
+		if (lastButtonZ) {
+			lastButtonZ.style.background = '';
+		}
+		lastButtonZ = button;
+		button.style.background = '#b0ff00';
+
+		degreeZ = z;
+		rotate();
+	}
+	function rotate() {
+		transform = "translateX(100px) translateY(100px)";
+		transform += " rotateX(" + degreeX + "deg)";
+		transform += " rotateY(" + degreeY + "deg)";
+		transform += " rotateZ(" + degreeZ + "deg)";
+		box.style.transform = transform;
+	}
+	function perspectiveZ(button, z) {
+		if (lastButtonP) {
+			lastButtonP.style.background = '';
+		}
+		lastButtonP = button;
+		button.style.background = '#b0ff00';
+		camera.style.perspective = z + 'px';
+	}
+
+	document.getElementById('buttonX').click();
+	document.getElementById('buttonY').click();
+	document.getElementById('buttonZ').click();
+	document.getElementById('buttonP').click();
+
+</script>
+</html>
